@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf88462-9177-4893-a36e-df722b34be0c" name="Default Changelist" comment="" />
+    <list default="true" id="1cf88462-9177-4893-a36e-df722b34be0c" name="Default Changelist" comment="installation de symfony" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +20,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Configurable.PHP.Twig" />
@@ -35,8 +37,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631317165447</updated>
-      <workItem from="1631317169944" duration="2245000" />
+      <workItem from="1631317169944" duration="2536000" />
     </task>
+    <task id="LOCAL-00001" summary="installation de symfony">
+      <created>1631319706505</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631319706505</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,6 +62,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="installation de symfony" />
+    <option name="LAST_COMMIT_MESSAGE" value="installation de symfony" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
