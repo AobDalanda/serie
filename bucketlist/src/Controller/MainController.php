@@ -1,0 +1,29 @@
+<?php
+
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+
+class MainController extends  AbstractController
+{
+    /**
+     * @Route("/", name="main_home")
+     */
+      public function home()
+      {
+          echo"bonjour";
+          die();
+          //$this->renderView()
+      }
+
+
+      /**
+       * @Route("/sidy" , name="page_sidy")
+       */
+      public function sidy(){
+          echo"bonjour sidy with the controllers";
+          die();
+      }
+}
