@@ -1,111 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b72cc8f-b9d5-4b4a-9e9b-a15a4e171c14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bucketlist/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/mailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/notifier.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/prod/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/preload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/routes/dev/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/src/Controller/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/tests/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bucketlist/translations/.gitignore" afterDir="false" />
+    <list default="true" id="753bfe67-8a10-458b-99e6-6e34f715b3cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/series/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/mailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/prod/deprecations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/prod/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/preload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/routes/dev/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/series/translations/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/.env.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/bin/console" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/bin/phpunit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/bundles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/cache.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/dev/debug.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/dev/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/doctrine.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/doctrine_migrations.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/mailer.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/prod/deprecations.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/prod/doctrine.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/prod/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/prod/routing.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/routing.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/security.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/sensio_framework_extra.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/doctrine.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/monolog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/twig.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/validator.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/test/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/translation.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/twig.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/packages/validator.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/preload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/routes.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/routes/annotations.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/routes/dev/framework.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/routes/dev/web_profiler.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/config/services.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/migrations/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/src/Entity/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/src/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/src/Repository/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/symfony.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/templates/base.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/tests/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aldahim/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/bin/phpunit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/dev/debug.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/dev/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/mailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/notifier.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/prod/deprecations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/prod/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/prod/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/sensio_framework_extra.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/test/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/preload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/routes/annotations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/routes/dev/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/migrations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/src/Controller/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/tests/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bucketlist/translations/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +121,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xyK1PnGsHDj8UFmRrctyHDpJvZ" />
+  <component name="ProjectId" id="1y2fOy64e1I4Ev7zhK19MmBkusn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -131,20 +134,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bucketliste" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\bucketliste" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b72cc8f-b9d5-4b4a-9e9b-a15a4e171c14" name="Default Changelist" comment="" />
-      <created>1631321712405</created>
+      <changelist id="753bfe67-8a10-458b-99e6-6e34f715b3cf" name="Changes" comment="" />
+      <created>1631454605178</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1631321712405</updated>
-      <workItem from="1631321725538" duration="96000" />
-      <workItem from="1631322747950" duration="2737000" />
+      <updated>1631454605178</updated>
+      <workItem from="1631454637302" duration="3585000" />
     </task>
     <servers />
   </component>
