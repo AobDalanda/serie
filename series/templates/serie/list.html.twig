@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    {{ parent() }}
+{% endblock %}
+{% block body %}
+    <h2>Series !</h2>
+    <section class="series-list">
+        {% for serie in listeserie %}
+            <article>
+                <a href="{{ path('serie_details', {'id' : serie.id}) }}" title="View serie's detail">
+                    <img src="{{ asset('img/posters/series/' ~ serie.poster) }}" alt="{{ serie.name }}">
+                </a>
+            </article>
+        {% endfor %}
+    </section>
+
+
+{% endblock %}
+
+

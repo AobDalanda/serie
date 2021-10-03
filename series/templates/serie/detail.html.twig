@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+{% block title %}
+    {{parent()}}
+{% endblock %}
+
+{% block body %}
+  <h1>{{ detailserie.name }}</h1>
+    <h1>{{ detailserie.status }}</h1>
+    <h1>{{ detailserie.vote }}</h1>
+    <h1>{{ detailserie.genres }}</h1>
+    <h1>{{ detailserie.dateCreated|date('d/m/y') }}</h1>
+    <h1>{{ detailserie.popularity }}</h1>
+    <h1><img src="{{ asset('img/posters/series/'~ detailserie.poster) }}"></h1>
+{% endblock %}
+
+
+
