@@ -12,15 +12,26 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SerieController extends AbstractController
 {
-    #[Route('/series', name: 'series_list')]
-    public function list(EntityManagerInterface $entityManager, SerieRepository $repository): Response
+    #[Route('/series/{page}', name: 'series_list')]
+    public function list(int $page=1,EntityManagerInterface $entityManager, SerieRepository $repository): Response
     {
+
         //TODO Afficher la liste des séries
         $listeSerie=new Serie();
         //$listeSerie=$repository->findBy(['status'=>'ended']);
        // $listeSerie=$repository->findBy(['status'=>'ended'], ['vote'=>'DESC'],20);
         //$listeSerie=$entityManager->getRepository(Serie::class)->findAll();
-        $listeSerie=$repository->findEndedSeries();
+         //$listeSerie=$repository->findEndedSeries();
+        //compter le nombre de series
+          $totalSerie=$repository->findAllSerieByStatus('Canceled');
+         // $maxpage=round($totalSerie/7);
+          $maxpage=ceil($totalSerie/7);
+        if($page>=1 &&  $page <=$maxpage){
+            $listeSerie=$repository->findserieByStatus('Canceled', $page);
+        }else {
+            throw $this->createNotFoundException("Oops ! cette page n'existe pas " );
+        }
+
      //insertion d'un serie
         // création d'une instance de serie
          $serie=new Serie();
@@ -34,7 +45,7 @@ class SerieController extends AbstractController
             ->setBackdrop('backdrop')
             ->setGenres('SF')
             ->setFirstAirDate(new \DateTime("-15 years"));
-        dump($serie);
+
         $entityManager->persist($serie);
          $entityManager->flush();
         dump($serie);
@@ -47,6 +58,8 @@ class SerieController extends AbstractController
         dump($serie);
         return $this->render('serie/list.html.twig', [
             'listeserie'=>$listeSerie,
+            'currentPage'=>$page,
+            'maxpage'=>$maxpage
         ] );
     }
 
@@ -54,6 +67,9 @@ class SerieController extends AbstractController
     public function detail($id=1,  EntityManagerInterface $entityManager, SerieRepository $repository  ):Response
     {
        $detailserie=$repository->find($id);
+       if(!$detailserie){
+        throw    $this->createNotFoundException("Oops cette serie n'existe pas ");
+       }
        //TODO afficher le detail d'une serie
         //dd($detailserie);
       return $this->render('serie/detail.html.twig',[

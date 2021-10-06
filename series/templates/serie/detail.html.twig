@@ -12,6 +12,14 @@
     <h1>{{ detailserie.popularity }}</h1>
     <h1><img src="{{ asset('img/posters/series/'~ detailserie.poster) }}"></h1>
 {% endblock %}
+{% block extrastyles %}
+  <style>
+    body{
+      background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,9)),
+      url("{{ asset('img/backdrops/'~detailserie.backdrop) }}");
+    }
+  </style>
 
+{% endblock %}
 
 

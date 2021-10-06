@@ -4,7 +4,14 @@
 {% endblock %}
 {% block body %}
     <h2>Series !</h2>
+    {% if currentPage > 1 %}
+       <div><a href="{{ path('series_list', {'page': currentPage -1}) }}">Previous Page</a></div>
+    {% endif %}
+    {% if currentPage < maxpage %}
+       <div><a href="{{ path('series_list', {'page': currentPage +1}) }}">Next Page</a></div>
+    {% endif %}
     <section class="series-list">
+
         {% for serie in listeserie %}
             <article>
                 <a href="{{ path('serie_details', {'id' : serie.id}) }}" title="View serie's detail">
