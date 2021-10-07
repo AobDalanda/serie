@@ -3,5 +3,10 @@
 {% block title %}
 {% endblock %}
 {% block body %}
-    {{ detail_souhait }}
+    {% for wish in detail_souhait  %}
+        <div>{{ wish.title }}</div>
+       <div>{{ wish.description }}</div>
+        <div>{{ wish.author }}</div>
+        <div>{{ wish.datecreated |date("m/d/Y  H:i:s" ) }}</div>
+    {% endfor %}
 {% endblock %}

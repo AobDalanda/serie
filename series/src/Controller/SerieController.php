@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Serie;
+use App\Form\SerieType;
 use App\Repository\SerieRepository;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityManagerInterface;
@@ -12,6 +13,18 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class SerieController extends AbstractController
 {
+    #[Route('/create11', name:'create_serie')]
+    public function create():Response
+    {
+       $newSerie=new Serie();
+       $serieForm=$this->createForm(SerieType::class, $newSerie);
+       return $this->render('serie/create.html.twig', [
+          'serieForm'=> $serieForm->createView(),
+       ]);
+
+
+
+    }
     #[Route('/series/{page}', name: 'series_list')]
     public function list(int $page=1,EntityManagerInterface $entityManager, SerieRepository $repository): Response
     {
@@ -77,10 +90,14 @@ class SerieController extends AbstractController
           ]);
     }
 
-    #[Route('/series/create', name:'create_serie')]
-    public function create():Response
+    #[Route('/create', name:'create_serie')]
+    public function create1():Response
     {
-        dump("bonjour");
-       return $this->render('serie/create.html.twig');
+        $newSerie=new Serie();
+        $serieForm=$this->createForm(SerieType::class, $newSerie);
+        return $this->render('serie/create.html.twig', [
+            'serieForm'=> $serieForm->createView(),
+        ]);
+
     }
 }

@@ -4,5 +4,11 @@
  {{ parent()  }}
 {% endblock %}
 {% block body %}
-    {{ mapagewishes }}
+    <section>
+        {% for wish in listeSouhait %}
+            <article>
+                <a href="{{ path('detail_wish',{'id':wish.id}) }}" title="Voir detail">{{ wish.title }}</a>
+            </article>
+        {% endfor %}
+      </section>
 {% endblock %}
